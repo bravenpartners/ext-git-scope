@@ -1,0 +1,16 @@
+name: ext-git-scope
+id: ari:cloud:compass:bd84269d-c4b7-445c-9188-ea186927d000:component/030567c5-b655-4ed3-b52c-326da8d1b1bd/992f03b3-24d3-4089-9651-81190198b443
+description: A fast TUI to see the status of all git repositories on your machine.
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/bravenpartners/ext-git-scope
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
